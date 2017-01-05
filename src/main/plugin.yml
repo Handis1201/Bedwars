@@ -1,0 +1,15 @@
+name: Bedwars
+version: 0.1
+author: Handis
+main: main.Bedwars
+
+commands:
+  start:
+    description: Set countdown time
+    usage: /start <time>
+  set:
+    description: Set bed location
+    usage: /setbed <bed, spawner, villager> (<teamcolor>)
+  team:
+    description: Set player in a team
+    usage: /team <color>
